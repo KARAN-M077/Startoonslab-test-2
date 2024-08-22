@@ -1,0 +1,12 @@
+{
+    "name": "Alice Brown",
+    "ageGender": "F/25",
+    "patientId": "789012",
+    "phone": "987-654-3210",
+    "email": "alicebrown@example.com",
+    "affectedSide": "Right",
+    "condition": "Post-surgery",
+    "speciality": "Neurology",
+    "medicalHistory": "Previous surgery on right arm"
+  }
+  

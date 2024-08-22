@@ -1,0 +1,172 @@
+.view-profile-container {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .pic-prof{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #012e57;
+
+  }
+
+  .view{
+    font-size: 20px;
+    font-weight: bold;
+    color: #012e57;
+  }
+
+  .name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #012e57;
+  }
+  .id{
+    font-size: 15px;
+    font-weight: bold;
+    color: #012e57;
+
+  }
+  .goal-section {
+    margin-top: 20px;
+    padding:1px;
+    background-color: #002647; /* Dark blue background for the goal section */
+    border-radius: 20px; /* Rounded corners for the card effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a card effect */
+    text-align: center; /* Center align text */
+  }
+  
+  .progress-section {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center the progress section */
+    background-color: #002647; /* White background for the progress bar section */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a card effect */
+  }
+  
+  .semi-circle-container {
+    width: 200px;
+    margin-right: 60px; /* Space between progress bar and indicators */
+  }
+  
+  .goal-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* White color for the "Goal reached" text */
+    margin-bottom: 5px; /* Space below the heading */
+    margin-top: 10px;
+  }
+  
+  .goal-indicators {
+    display: flex;
+    flex-direction: column; /* Align indicators vertically */
+    align-items: center; /* Center align indicators */
+  }
+  
+  .indicator {
+    margin-bottom: 10px;
+  }
+  
+.emg-line,
+.rom-line {
+  width: 30px;
+  height: 2px;
+  margin-top: 5px;
+}
+
+.emg-line {
+  background-color: limegreen;
+}
+
+.rom-line {
+  background-color: red;
+}
+
+.indicator-emg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+  }
+  
+  .indicator-emg p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+  }
+
+  .indicator-rom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+    margin-top: 10px;
+  }
+  
+  .indicator-rom p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .custom-progress-bar .progress-bar-text {
+    font-size: 36px;
+    color: #ffffff; 
+  }
+  .custom-progress-bar .progress-bar {
+    stroke-width: 16px; 
+  }
+  .semi-circle-container {
+    width: 200px; 
+    margin-right: 60px; 
+  }
+
+  .outer{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    border-radius: 10px;
+    
+  }
+
+  .details-section {
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px; 
+  }
+  
+  .detail-answer {
+    text-align: left;
+  }
+  .percentage
+  {
+    font-size:50px;
+    color: #ffffff;
+    padding-right: 10%;
+    margin-top: -5;
+    
+  }
